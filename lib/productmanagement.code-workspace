@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "productmanagement",
+			"path": "../.."
+		},
+		{
+			"name": ".vscode",
+			"path": "../../../managesproduct/.vscode"
+		}
+	],
+	"settings": {}
+}
