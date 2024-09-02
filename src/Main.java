@@ -1,3 +1,5 @@
+import java.util.List;
+
 import model.Product;
 import service.ProductService;
 
@@ -18,5 +20,10 @@ public class Main {
         ps.addProduct(new Product("Camera", "Electronics", "Office", 2025));
         ps.addProduct(new Product("Headphones", "Electronics", "Bedroom", 2024));
         
+
+        List<Product> products = ps.getAllProducts();
+        for(Product product : products){
+            System.out.println(product);
+        }
     }
 }
