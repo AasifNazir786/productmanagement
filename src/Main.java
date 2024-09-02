@@ -20,10 +20,18 @@ public class Main {
         ps.addProduct(new Product("Camera", "Electronics", "Office", 2025));
         ps.addProduct(new Product("Headphones", "Electronics", "Bedroom", 2024));
         
-
+        System.out.println("========================================================================================");
+        System.out.println("Fetching all the products from the database");
+        System.out.println("========================================================================================");
         List<Product> products = ps.getAllProducts();
         for(Product product : products){
             System.out.println(product);
         }
-    }
+
+        System.out.println("========================================================================================");
+        System.out.println("Fetching a Product by Name");
+        System.out.println("========================================================================================");
+        Product p = ps.getProductByName("Iron");
+        System.out.println(p);
+    }  
 }
