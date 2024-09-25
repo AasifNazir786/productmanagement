@@ -34,7 +34,7 @@ productmanagement/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/productmanagement.git
+   git clone https://github.com/AasifNazir786/productmanagement.git
    cd productmanagement
 
 2.	Database Setup
@@ -44,10 +44,10 @@ productmanagement/
 
 3.	Build and Run the Project
 	•	Compile the project:
-        javac -cp lib/postgresql-42.2.19.jar src/main/java/Main.java
+        javac -cp lib/postgresql-42.7.4.jar src/Main.java
 
     •	Run the application:
-        java -cp "lib/postgresql-42.2.19.jar:src/main/java" Main
+        java -cp "lib/postgresql-42.7.4.jar:src" Main
 
 ## Usage
 	•	Adding a Product:
@@ -69,4 +69,4 @@ productmanagement/
 ## Contact
     For any inquiries or feedback, please reach out to aasif.n.s786@gmail.com.
 
-## You can modify this template as needed to better suit your project. If you      have any specific details or features you want to highlight, feel free to add them.  
+## You can modify this template as needed to better suit your project. If you have any specific details or features you want to highlight, feel free to add them.
