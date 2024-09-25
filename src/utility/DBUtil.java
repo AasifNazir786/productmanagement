@@ -7,8 +7,8 @@ public class DBUtil {
 
     private Connection con;
     private String url = "jdbc:postgresql://localhost:5432/product-management";
-    private String uName = "postgres";
-    private String password = "njasm786";
+    private String uName = "enter ur username of ur DB";
+    private String password = "enter password here if any";
 
     static {
         try {

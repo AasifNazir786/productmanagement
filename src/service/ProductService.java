@@ -1,5 +1,6 @@
 package service;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import dao.ProductDao;
@@ -17,9 +18,19 @@ public class ProductService {
        return dao.getAll();
     }
 
-    public Product getProductByName(String name){
+    public Product getProductByName(String name)throws SQLException{
 
         return dao.getByName(name);
+    }
+    public Product updateProduct(String name, Product product){
+        return dao.updateProduct(name, product);
+    }
 
+    public void deleteProduct(String name){
+        if(name == null || name == ""){
+            System.out.println("can't delete a product please enter a valid name");
+            return;
+        }
+        dao.deleteProduct(name);
     }
 }
